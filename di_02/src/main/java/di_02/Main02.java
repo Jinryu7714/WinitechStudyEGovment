@@ -1,5 +1,7 @@
 package di_02;
 
+import java.io.Closeable;
+
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
@@ -21,5 +23,6 @@ public class Main02 {
 //		MyCalc mc2 = context.getBean(MyCalc.class);
 //		System.out.println("mc="+mc);
 //		System.out.println("mc2="+mc2);
+		
 	}
 }
